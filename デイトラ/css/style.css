@@ -176,6 +176,9 @@ button {
     .form-title {
         font-size: 26px;
     }
+    .header-logo {
+        font-size: 28px;
+    }
     .header-container {
         display: block;
         text-align: center;
@@ -228,7 +231,7 @@ button {
         width: 100%;
     }
     .form-mail input {
-        margin-top: 15px;
+        box-sizing: border-box;
         width: 100%;
     }
     .footer-container {
