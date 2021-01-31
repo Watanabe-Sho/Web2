@@ -1,0 +1,238 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:focus {
+    outline: none;
+}
+
+body {
+    background-color: white;
+    font-family: 'Coda', cursive;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+.header-container {
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 36px;
+    opacity: .7;
+    line-height: 100px;
+}
+
+.nav-menu ul {
+    line-height: 100px;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+}
+
+.nav-menu ul li {
+    opacity: .7;
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+.top-wrapper {
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+}
+
+.main-contents {
+    opacity: .7;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-container {
+    padding-top: 50px;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.main-about {
+    width: 50%;
+}
+
+.main-about-message {
+    opacity: .7;
+    font-size: 24px;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.course-wrapper {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.course-container {
+    padding-top: 50px;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.course-list {
+    opacity: .7;
+    font-size: 36px;
+    text-align: center;
+}
+
+.course-img {
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.course-img__center {
+    margin: 0 20px 0 20px;
+}
+
+.container {
+    padding-top: 50px;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.form-title {
+    opacity: .7;
+    font-size: 36px;
+}
+
+.form-mail {
+    padding-top: 50px;
+}
+
+.form-mail input {
+    width: 50%;
+    padding: 15px;
+    border-radius: 5em;
+}
+
+.form-button {
+    padding-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(236, 83, 56);
+    width: 30%;
+    padding: 30px 0;
+    margin-bottom: 100px;
+}
+
+.footer-container {
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-top: 1px solid;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: right;
+    line-height: 100%;
+}
+
+.footer-container p {
+    opacity: .7;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:968px) {
+    .main-contents,
+    .course-list,
+    .form-title {
+        font-size: 26px;
+    }
+    .header-container {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .nav-menu ul {
+        margin: -20px;
+        text-align: center;
+        line-height: normal;
+        padding: 0 20px;
+    }
+    .nav-menu ul li {
+        margin: 0;
+        font-size: 14px;
+        padding: 0;
+        line-height: normal;
+    }
+    .top-wrapper {
+        padding-top: 10px;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .top-container img {
+        height: 400px;
+        width: 100%;
+    }
+    .main-container {
+        display: block;
+    }
+    .main-about,
+    .main-about-message {
+        padding-top: 10px;
+        font-size: 18px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .course-container {
+        display: block;
+    }
+    .course-img {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    button {
+        cursor: pointer;
+        background-color: rgb(236, 83, 56);
+        width: 100%;
+    }
+    .form-mail input {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .footer-container {
+        width: 100%;
+        text-align: center;
+    }
+}
